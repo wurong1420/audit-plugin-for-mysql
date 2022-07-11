@@ -34,6 +34,10 @@ repository.
 
 Copy the contents of this repository on top of the sources or MySQL so it
 compiles as part of the MySQL build.
+1. Download MySQL Server source code from https://github.com/mysql/mysql-server
+2. Copy plugin/server_audit to ${mysql-server}/plugin
+3. Compile MySQL
+4. Will get .so file in ${mysql-server}/plugin_output_directory/server_audit.so
 
 ## Installation
 
